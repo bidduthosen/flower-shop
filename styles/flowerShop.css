@@ -157,5 +157,26 @@ body {
 .instagram-content img{
     width: 23.5%;
     margin: 0.8%;
-    
+}
+/* Get-the-latest-deals section style */
+
+.Get-the-latest-deals{
+    width: 1340px;
+    height: 449px;
+    border-radius: 8px;
+    margin: 100px auto;
+    background-image: url('../assets/Rectangle\ 9.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-form{
+    border-radius: 8px;
+    border: none;
+    padding: 20px 43px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    width: 610px;
+    margin: 20px 10px;
 }
