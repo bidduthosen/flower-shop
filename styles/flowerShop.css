@@ -13,6 +13,19 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "playpen sans", cursive;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
 
 /* banner style */
 
@@ -51,4 +64,46 @@ body {
 }
 .banner-img img {
   height: 775px;
+}
+
+/* our-featured-flowers styles */
+.our-featured-flowers {
+  margin-top: 160px;
+}
+.our-featured-flowers .section-title {
+  width: 680px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.our-featured-flowers .section-description {
+  width: 680px;
+  margin: 0 auto;
+}
+.flowers-content {
+  display: flex;
+  margin: 48px auto;
+  width: 1340px;
+  justify-content: space-between;
+
+}
+.flower-items{
+    width: 32.3%;
+}
+.flower-items .flower-img{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 100% !important;
+  height: 100% !important;
+}
+.flower-img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.flower-name{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 20px;
 }
