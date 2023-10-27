@@ -15,7 +15,7 @@ body {
 }
 .section-title {
   text-align: center;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 800;
   font-family: "playpen sans", cursive;
 }
@@ -179,4 +179,29 @@ body {
     font-weight: 700;
     width: 610px;
     margin: 20px 10px;
+}
+
+/* footer section */
+#flower-footer{
+    background-color: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flower-shop{
+    margin: 124px 0;
+}
+.flower-shop .section-title{
+    color: white;
+}
+.flower-shop> p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.flower-shop> h5{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
