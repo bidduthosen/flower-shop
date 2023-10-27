@@ -25,6 +25,8 @@ body {
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
+  padding: 15px 0;
+  line-height: 29px;
 }
 
 /* banner style */
@@ -145,4 +147,15 @@ body {
 }
 .discount-details .section-description {
   margin: 20px 0;
+}
+
+.instagram-content{
+    width: 1340px;
+    margin: 48px auto;
+    display: flex;
+}
+.instagram-content img{
+    width: 23.5%;
+    margin: 0.8%;
+    
 }
