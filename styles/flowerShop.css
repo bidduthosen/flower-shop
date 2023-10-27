@@ -84,26 +84,49 @@ body {
   margin: 48px auto;
   width: 1340px;
   justify-content: space-between;
-
 }
-.flower-items{
-    width: 32.3%;
+.flower-items {
+  width: 32.3%;
 }
-.flower-items .flower-img{
+.flower-items .flower-img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   width: 100% !important;
   height: 100% !important;
 }
-.flower-img{
-    display: flex;
-    justify-content: center;
-    align-items: end;
+.flower-img {
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
-.flower-name{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: underline;
-    margin-top: 20px;
+.flower-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+/*  blogs section style start */
+
+.blogs {
+  width: 1340px;
+  margin: 128px auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.blogs-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 0;
+}
+.blogs-items {
+  text-align: center;
+}
+.blogs-items p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
 }
