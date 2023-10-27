@@ -130,3 +130,19 @@ body {
   font-size: 24px;
   font-weight: 600;
 }
+
+/* discount section style */
+.discount-deal {
+  background: rgba(229, 84, 115, 0.05);
+}
+.discount-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1340px;
+  margin: 128px auto;
+  padding: 100px 0;
+}
+.discount-details .section-description {
+  margin: 20px 0;
+}
